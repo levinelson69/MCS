@@ -33,13 +33,19 @@ body {
     border-bottom: 1px solid #fff;
 }
 .navbar-brand img {
-    width: 100px;
+    width: 150px;
     margin-top: 5px;
     margin-left: 5px;
-    height: 100px;
+    height: 90px;
+    border: 2px solid black;
 }
 @media only screen and (max-width: 1000px) {
     .nav-link:hover {
         border-bottom: none!important;
     }
+}
+footer {
+    text-align: right;
+    background-color: rgba(104, 63, 16, 0.2);
+    border-radius: 10px;
 }
