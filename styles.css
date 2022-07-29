@@ -10,15 +10,13 @@ body {
 }
 .menu-bar {
     background-image: linear-gradient(-90deg, #8cd14f, #ccb280);
+    border-radius: 10px;
 }
 .nav-links {
-    font-size: 16px;
+    font-size: 20px;
     margin: 3px;
     color: #fff!important;
     font-weight: 500;
-}
-.navbar-nav {
-    text-align: left;
 }
 .menu-bar .navbar-toggler {
     outline: none!important;
@@ -44,11 +42,6 @@ body {
         border-bottom: none!important;
     }
 }
-  
-footer {
-    background-color: rgba(104, 63, 16, 0.2);
-    border-radius: 4px;
-}
 
 .column {
     float: left;
@@ -71,7 +64,8 @@ footer {
 	display: block;
 }
 .footer {
-	background: #002147;
+  background-color: rgba(61, 34, 3, 0.2);
+  border-radius: 4px;
 	height: auto;
 	padding-bottom: 30px;
 	position: relative;
@@ -101,7 +95,7 @@ footer {
 	font-weight: 600;
 	line-height: 38px;
 	padding: 40px 0 10px;
-	font-family: cursive;
+	font-family: 'Shadows Into Light', cursive;
   font-weight: lighter
 }
 
@@ -111,7 +105,7 @@ footer {
 	margin-left: 0;
 	padding-left: 0;
 	margin-top: 0px;
-	color: #7F8C8D;
+	color: black;
   padding: 0 0 8px 0;
 }
 
@@ -150,13 +144,12 @@ footer {
 	box-shadow: 0 1px 0 #B4B3B3;
 }
 
-}
 .footer a {
-	color: #78828D
+	color: white
 }
 
 .footer-bottom {
-  margin-top: 2em;
+  margin-top: 1em;
 	border-top: 1px solid #DDDDDD;
 	padding-top: 20px;
 	padding-bottom: 10px;
