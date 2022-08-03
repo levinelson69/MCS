@@ -85,7 +85,8 @@ body {
 	display: block;
 }
 .row {
-  padding-top: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .container-b {
   background-color: rgb(200, 207, 103)
