@@ -99,6 +99,15 @@ body {
   font-size: 20px;
   color: black;
 }
+.panel {
+  background-color: #965a3e;
+}
+.panel-heading {
+  color: #fff
+}
+.panel-footer {
+  color: #fff
+}
 .footer {
   background-color: rgba(61, 34, 3, 0.2);
   border-radius: 4px;
