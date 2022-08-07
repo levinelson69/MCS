@@ -89,15 +89,16 @@ body {
   padding-bottom: 50px;
 }
 .container-b {
-  background-color: rgb(200, 207, 103)
+  background-color: #8cd14f
 }
 .subheading-a {
   font-size: 100px;
   color: black;
 }
 .paragraph {
-  font-size: 20px;
+  font-size: 35px;
   color: black;
+  padding-bottom: 50px;
 }
 .products-heading {
   background-color: #8cd14f;
@@ -108,7 +109,7 @@ body {
   border-radius: 10px;
 }
 .panel-heading {
-  font-size: 50px;
+  font-size: 25px;
   color: #fff
 }
 .panel-footer {
