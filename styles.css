@@ -99,14 +99,23 @@ body {
   font-size: 20px;
   color: black;
 }
+.products-heading {
+  background-color: #8cd14f;
+  text-align: center;
+}
 .panel {
   background-color: #965a3e;
+  border-radius: 10px;
 }
 .panel-heading {
+  font-size: 50px;
   color: #fff
 }
 .panel-footer {
-  color: #fff
+  font-size: 25px;
+  background-color: #8cd14f;
+  border-radius: 10px;
+
 }
 .footer {
   background-color: rgba(61, 34, 3, 0.2);
