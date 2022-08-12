@@ -1,208 +1,204 @@
 * {
-    margin: 0px;
-    padding:0px;
-    font-family: 'Shadows Into Light', cursive;
+    margin: 0px; /*Margin Thickness*/
+    padding: 0px; /*Padding Thickness*/
+    font-family: 'Shadows Into Light', cursive; /*Type of font*/
 }
 body {
-    padding-top: 5rem;
-    background: url(Images/tropics_bg.webp);
-    background-size:cover;
+    padding-top: 5rem; /*Thickness of padding*/
+    background: url(Images/tropics_bg.webp); /*Background Image reference*/
+    background-size:cover; /*Background Image will cover the entire background*/
 }
 .menu-bar {
-    background-image: linear-gradient(-90deg, #8cd14f, #ccb280);
-    border-radius: 5px;
+    background-image: linear-gradient(-90deg, #8cd14f, #ccb280); /*Colour of text background*/
+    border-radius: 5px; /*Radius of image border*/
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
     z-index:10;
 }
 .nav-links {
-    font-size: 20px; 
-    margin: 3px;
+    font-size: 20px; /*Font Size*/
+    margin: 3px; /*Margin Thickness*/
     color: #fff!important;
-    font-weight: 500;
+    font-weight: 500; /*Font Thickness*/
 }
 .menu-bar .navbar-toggler {
-    outline: none!important;
-    border: none!important;
+    outline: none!important; /*Outline not important*/
+    border: none!important; /*Border not important*/
 }
 .navbar .fa {
-    color: #fff!important;
-    font-size: 26px;
+    color: #fff!important; /*Colour important*/
+    font-size: 26px; /*Font Size*/
 }
 .nav-link:hover {
-    font-weight: 600;
-    border-bottom: 1px solid #fff;
+    font-weight: 600; /*Font Thickness*/
+    border-bottom: 1px solid #fff; /*Bottom Border line colour and thickness*/
 }
 .navbar-brand img {
-    width: 150px;
-    margin-top: 5px;
-    margin-left: 5px;
-    height: 90px;
-    border: 2px solid black;
+    width: 150px; /*Image Width*/
+    margin-top: 5px; /*Margin from the top*/
+    margin-left: 5px; /*Margin from the left*/
+    height: 90px; /*Image Height*/
+    border: 2px solid black; /*Image border colour and thickness*/
 }
 @media only screen and (max-width: 1000px) {
     .nav-link:hover {
         border-bottom: none!important;
     }
 }
-  /* Make the image fully responsive */
+  /* Make the image responsive */
   .carousel-inner img {
-    width: 100%;
-    height: 100%;
-    border-radius: 5px;
-    padding-top: 100px;
+    width: 100%; /*Image Width*/
+    height: 100%; /*Image Height*/
+    border-radius: 5px; /*Radius of image border*/
+    padding-top: 100px; /*Padding from top*/
   }
 .carousel-caption {
-    background-color: rgba(231, 232, 176, 0.656);
+    background-color: rgba(231, 232, 176, 0.656); /*Colour of text background*/
 }
 .carousel-caption h3 {
-  font-size: 30px;
+  font-size: 30px; /*Font Size*/
 }
 .carousel-caption p {
-  font-size: 20px;
+  font-size: 20px; /*Font Size*/
 }
 
 .column {
-    float: left;
-    width: 50%;
-    padding: 10px;
-    height: 300px; 
+    float: left; /*Column box float left*/
+    width: 50%; /*Column Width*/
+    padding: 10px; /*Padding thickness*/
+    height: 300px; /*Column Height*/
   }
 
   ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 0; /*Margin Thickness*/
+    padding: 0; /*Padding Thickness*/
   }
-  .full {
-    width: 100%;    
-}
 .gap {
-	height: 30px;
-	width: 100%;
+	height: 30px; /*Gap Height*/
+	width: 100%; /*Gap Width*/
 	clear: both;
 	display: block;
 }
 .row {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 50px; /*Padding from top*/
+  padding-bottom: 50px; /*Padding from bottom*/
 }
 .container-b {
-  background-color: #8cd14f
+  background-color: #8cd14f /*Colour of text background*/
 }
 .subheading-a {
-  font-size: 100px;
-  color: black;
+  font-size: 100px; /*Font Size*/
+  color: black; /*Font Colour*/
 }
 .paragraph {
-  font-size: 35px;
-  color: black;
-  padding-bottom: 50px;
+  font-size: 35px; /*Font Size*/
+  color: black; /*Font Colour*/
+  padding-bottom: 50px; /*Padding from bottom*/
 }
 .products-heading {
-  background-color: #8cd14f;
-  text-align: center;
+  background-color: #8cd14f; /*Colour of text background*/
+  text-align: center; /*Align text to the center*/
 }
 .panel {
-  background-color: #965a3e;
-  border-radius: 10px;
+  background-color: #965a3e; /*Colour of text background*/
+  border-radius: 10px; /*Radius of text border*/
 }
 .panel-heading {
-  font-size: 25px;
-  color: #fff
+  font-size: 25px; /*Font Size*/
+  color: #fff /*Font Colour*/
 }
 .panel-footer {
-  font-size: 25px;
-  background-color: #8cd14f;
-  border-radius: 10px;
+  font-size: 25px; /*Font Size*/
+  background-color: #8cd14f; /*Colour of text background*/
+  border-radius: 10px; /*Radius of text border*/
 
 }
 .footer {
-  background-color: rgba(61, 34, 3, 0.2);
-  border-radius: 4px;
-	height: auto;
-	padding-bottom: 30px;
-	position: relative;
-	width: 100%;
-	border-bottom: 1px solid #CCCCCC;
-	border-top: 1px solid #DDDDDD;
+  background-color: rgba(61, 34, 3, 0.2); /*Colour of text background*/
+  border-radius: 4px; /*Radius of text border*/
+	height: auto; /*Specific height of content area depending on box sizes*/
+	padding-bottom: 30px; /*Padding from bottom*/
+	position: relative; /*How CSS is positioned*/
+	width: 100%; /*Width of footer*/
+	border-bottom: 1px solid #CCCCCC; /*Border bottom Colour*/
+	border-top: 1px solid #DDDDDD; /*Border top Colour*/
 }
 .footer p {
-	margin: 0;
+	margin: 0; /*Thickness of margin area*/
 }
-
 .footer h3 {
-	color: white;
-	font-size: 18px;
-	font-weight: 600;
-	line-height: 27px;
-	padding: 40px 0 0px;
-	text-transform: uppercase;
+	color: white; /*Font Colour*/
+	font-size: 18px; /*Font Size*/
+	font-weight: 600; /*Font Thickness*/
+	line-height: 27px; /*Height of text box line*/
+	padding: 40px 0 0px; /*Padding Thickness*/
+	text-transform: uppercase; /*Elements text always capital*/
   margin-bottom: 15px;
 }
 
 .footer h4 {
-	color: white;
+	color: white; /*Font Colour*/
 	font-size: 2em;
-	font-weight: 600;
-	line-height: 38px;
+	font-weight: 600; /*Font Thickness*/
+	line-height: 38px; /*Height of text box line*/
 	padding: 40px 0 10px;
-	font-family: 'Shadows Into Light', cursive;
+	font-family: 'Shadows Into Light', cursive; /*Type of Font*/
   font-weight: lighter
 }
 
 .footer ul {
-	font-size: 13px;
+	font-size: 13px; /*Font Size*/
 	list-style-type: none;
-	margin-left: 0;
-	padding-left: 0;
-	margin-top: 0px;
-	color: black;
-  padding: 0 0 8px 0;
+	margin-left: 0; /*Margin position from left*/
+	padding-left: 0; /*Padding thickness from left*/
+	margin-top: 0px; /*Margin position from top*/
+	color: black; /*Font Colour*/
+  padding: 0 0 8px 0; /*Padding Thickness*/
 }
 
 .email{
-  border-bottom: 3px solid #fff;
+  border-bottom: 3px solid #fff; /*Border bottom Colour*/
 }
 .footer ul li a {
-	padding: 0 0 12px 0;
+	padding: 0 0 12px 0; /*Padding Thickness*/
 	display: block;
 }
 .footer a {
-	color: white;
-  font-weight: lighter;
+	color: white; /*Font Colour*/
+  font-weight: lighter; /*Font Thickness*/
 }
 
 .footer p {
-	color: white;
-  font-weight: lighter;
+	color: white; /*Font Colour*/
+  font-weight: lighter; /*Font Thickness*/
 }
 
 .footer a:hover {
 	text-decoration:none;
-  font-weight: bold;
+  font-weight: bold; /*Font Thickness*/
 }
 .supportLi h4 {
-	font-size: 20px;
-	font-weight: lighter;
-	line-height: normal;
-	margin-bottom: 0 !important;
-	padding-bottom: 0;
+	font-size: 20px; /*Font Size*/
+	font-weight: lighter; /*Font weight*/
+	line-height: normal; /*Height of text box line*/
+	margin-bottom: 0 !important; /*0 bottom margin is important*/
+	padding-bottom: 0;  /*Padding from bottom*/
 }
 
 .bg-gray {
-	background-image: -moz-linear-gradient(center bottom, #BBBBBB 0%, #F0F0F0 100%);
-	box-shadow: 0 1px 0 #B4B3B3;
+	background-image: -moz-linear-gradient(center bottom, #BBBBBB 0%, #F0F0F0 100%); /*Colour of text background*/
+	box-shadow: 0 1px 0 #B4B3B3; /*Colour and thickness of box shadow*/
 }
 
 .footer-bottom {
-  margin-top: 1em;
-	border-top: 1px solid #DDDDDD;
-	padding-top: 20px;
-	padding-bottom: 10px;
+  margin-top: 1em; /*Thickness of margin from the top*/
+	border-top: 1px solid #DDDDDD; /*Border top Colour*/
+	padding-top: 20px; /*Padding from top*/
+	padding-bottom: 10px; /*Padding from bottom*/
 }
 .footer-bottom p.pull-left {
-	padding-top: 6px;
-  font-size: 0.75em
+	padding-top: 6px; /*Padding from top*/
+  font-size: 0.75em /*Font Size*/
 }
